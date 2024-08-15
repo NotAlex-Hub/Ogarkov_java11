@@ -23,6 +23,12 @@ public class Main {
         System.out.println("Сумма: " + (a + b));
         System.out.println("Вычитание: " + (a - b));
         System.out.println("Умножение: " + (a * b));
-        System.out.println("Деление: " + (a / b));
 
+        if (b != 0) {
+            System.out.println("Деление: " + (a / b));
+        } 
+        else {
+            System.out.println("Ошибка");
+        }
+        
     }
